@@ -29,20 +29,20 @@ class PostSeeder extends Seeder
         //     'gallery_id' => 2
         // ]);
 
-        // Post::create([
-        //     'title' => 'กิจกรรมหน่วยงาน',
-        //     'category_id' => 3,
-        //     'users_id' => 1,
-        //     'publish' => 1,
-        //     'gallery_id' => 3
-        // ]);
+        Post::create([
+            'title' => 'กิจกรรมหน่วยงาน',
+            'category_id' => 1,
+            'users_id' => 1,
+            'publish' => 1,
+            'gallery_id' => 3
+        ]);
 
-        // Post::create([
-        //     'title' => 'ข่าวประชาสัมพันธ์',
-        //     'category_id' => 4,
-        //     'users_id' => 1,
-        //     'publish' => 1,
-        //     'gallery_id' => 4
-        // ]);
+        Post::create([
+            'title' => 'ข่าวประชาสัมพันธ์',
+            'category_id' => 2,
+            'users_id' => 1,
+            'publish' => 1,
+            'gallery_id' => 4
+        ]);
     }
 }

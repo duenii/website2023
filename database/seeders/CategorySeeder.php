@@ -14,13 +14,13 @@ class CategorySeeder extends Seeder
     use WithoutModelEvents;
     public function run()
     {
-        Category::create([
-            'name' => 'ทุนวิจัย'
-        ]);
+        // Category::create([
+        //     'name' => 'ทุนวิจัย'
+        // ]);
 
-        Category::create([
-            'name' => 'ประชุม/อบรม'
-        ]);
+        // Category::create([
+        //     'name' => 'ประชุม/อบรม'
+        // ]);
 
         Category::create([
             'name' => 'กิจกรรมหน่วยงาน'

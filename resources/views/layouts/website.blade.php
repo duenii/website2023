@@ -37,10 +37,10 @@
 <header>
 	<div class="header-top-bar ">
 		<div class="container-fluid">
-			<div class="row align-items-center ">
+			<div class="align-items-center ">
 				<div class="col-lg-12 text-center">
 					
-					<img src="{{ asset('assets/website/images/web/headweb.jpg') }}" alt="" class="img-fluid ">
+					<img src="{{ asset('assets/website/images/web/headweb.jpg') }}" alt="ภาพส่วนหัวเว็บไซต์" class="img-fluid ">
 				</div>
 				
 			</div> 
@@ -57,7 +57,7 @@
 					<div class="col-lg-3">
 						<ul class="navbar-nav ml-auto mr-auto">
 							<li class="nav-item font_tel">
-								TEL. 044-272937 เบอร์ภายใน 1504
+								
 
 							</li>
 						</ul>
@@ -124,7 +124,7 @@
 		<div class="container-fluid pad-cont mt-3">
 			<div class="row">
 				<div class="col-lg-3 pb-2">
-					<img src="{{ asset('assets/website/images/web/qr-code.png') }}" alt="" class="img-fluid w-25">
+					{{-- <img src="{{ asset('assets/website/images/web/qr-code.png') }}" alt="" class="img-fluid w-25"> --}}
 				</div>	
 				<div class="col-lg-9 text-right text-light">
 					<div>มหาวิทยาลัยราชภัฏนครราชสีมา 340 ถนนสุรนารายณ์ ตำบลในเมือง อำเภอเมือง จังหวัดนครราชสีมา 30000</div>		

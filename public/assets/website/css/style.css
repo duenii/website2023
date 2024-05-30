@@ -83,10 +83,41 @@ p {
 .navbar-toggle .icon-bar {
   background: #223a66;
 }
+/* add style icon eff */
+.shrink img {
+  transition: 1s ease;
+  }
+  
+  .shrink img:hover{
+  -webkit-transform: scale(0.8);
+  -ms-transform: scale(0.8);
+  transform: scale(0.8);
+  transition: 1s ease;
+  }
+
+  .circle img {
+    transition: 1s ease;
+    }
+    
+  .circle img:hover {
+    border-radius:15%;
+    transition: 1s ease;
+    }
+
+  .fadein img{
+      opacity:1;
+    
+    }
+      
+  .fadein img:hover{
+      opacity:0.5;
+      transition: 1s ease;
+    }
+
 
 .bg-navmenu{
  /*add style*/
- background: #0BAF49 !important;
+ background: #e9ecef !important ;
  padding: 10px !important;
 }
 .container-fluid{
@@ -103,7 +134,7 @@ p {
   background-color:#ff6804;
 }
 .bg-showdata{
-  background-color: #9AF1C1;
+  background-color: #fff;
 }
 .font_tel{
   color:#f8f9faad ;
@@ -380,7 +411,10 @@ a:focus {
 }
 
 .section-title {
-  margin-bottom: 70px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-bottom-style: ridge;
+  border-color: #6c3298;
 }
 .section-title h2 {
   color: #223a66;
@@ -391,7 +425,7 @@ a:focus {
 } */
 
 .gray-bg {
-  background: #02673c;
+  background: #c98f30;
 }
 
 .bg-topNews1{
@@ -426,7 +460,7 @@ a:focus {
 }
 #navbarmain .nav-link:hover,
 #navbarmain .active .nav-link {
-  color: #fff;
+  color: #b36206;
 }
 
 .dropdown-toggle::after {
@@ -709,7 +743,7 @@ a:focus {
 .feature-item {
   flex-basis: 33.33%;
   margin: 0px 10px;
-  padding: 40px 30px;
+  padding: 10px 10px;
   background-color: #fff;
   border-radius: 15px 15px 15px 15px;
   box-shadow: 0px 0px 30px 0px rgba(0, 42, 106, 0.1);
@@ -1446,8 +1480,7 @@ a:focus {
 }
 
 .footer {
-  padding-bottom: 10px;
-  background: linear-gradient(93deg, rgb(27 135 51) 0%, #608d04 59%, rgb(3 107 26) 96%);
+  background: linear-gradient(116deg, rgb(143 57 195) 0%, #965fb7 59%, #501772 96%);
   
 }
 .footer .copyright a {
